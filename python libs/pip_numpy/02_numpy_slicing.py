@@ -1,0 +1,10 @@
+import numpy as np
+arr = np.array([1,2,3,4])
+arr2 = np.array([[1,2,3] , [4,5,6]])
+arr3 = np.array([[[1,2,3] , [4,5,6]] , [[7, 8, 9] , [35 ,46, 47]]])
+print(arr[2])
+print(arr[2] + arr[3]) 
+print(arr2[1, 2])
+print(arr3[0 , 1 , 2])
+print(arr3[1 , 1 , -1]) 
+print(arr3[:1])
